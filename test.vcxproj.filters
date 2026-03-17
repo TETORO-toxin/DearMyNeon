@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Game">
+      <UniqueIdentifier>{657a3489-bc2c-409d-a404-6842be8f7d10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\main">
+      <UniqueIdentifier>{bdb29b7a-b777-40e0-9022-dd823c797179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\EditMode">
+      <UniqueIdentifier>{03f75f5c-11f3-4356-a6b9-ab237277e987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\EditMode\IO">
+      <UniqueIdentifier>{c9350edb-b51d-4232-b230-7cf9076fa51f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\EditMode\Main">
+      <UniqueIdentifier>{553c5485-7850-4a47-9510-59837c3cb337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\EditMode\Pointer">
+      <UniqueIdentifier>{ebf38329-bc46-4f5a-b019-a08fc57d3df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\EditMode\Palette">
+      <UniqueIdentifier>{75adf16e-8307-4ec7-a72c-bc18a4317ee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Define">
+      <UniqueIdentifier>{2a2061d3-942e-40ee-84eb-802d7d4bb9b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Map">
+      <UniqueIdentifier>{525109ec-2b08-4f16-bdc4-e8398e0d2e5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\bullet">
+      <UniqueIdentifier>{cd01f067-d1bb-48de-89df-07b3bfb9570c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Camera">
+      <UniqueIdentifier>{9f53146a-6432-45c4-8db3-da2e7605ee61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\GameLoop">
+      <UniqueIdentifier>{920b8c09-92af-4bbe-84e1-c579b0bc55c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\GameLoop\GameScene">
+      <UniqueIdentifier>{9954ad56-416a-4e1e-9a13-606763166809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\GameLoop\GameScene\Clear">
+      <UniqueIdentifier>{139e3343-a76e-4980-a2b9-a2b5f72e8f89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\GameLoop\GameScene\Over">
+      <UniqueIdentifier>{b91bd1da-6a55-49a4-9b2a-029e2a6ff5c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\GameLoop\GameScene\Title">
+      <UniqueIdentifier>{1405ba9e-3f14-4b8a-adea-1e6c195c03d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\GameLoop\GameManager">
+      <UniqueIdentifier>{7e9a10a7-326e-414e-bc01-32031c1b566c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\GameLoop\GameManager\GamePlay">
+      <UniqueIdentifier>{431061e8-44f3-4c5c-a8d1-65214d6805e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\GameLoop\GameManager\Resource">
+      <UniqueIdentifier>{2400b3cd-ed25-4ba7-a089-224ed888ec29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\GameLoop\GameManager\misc">
+      <UniqueIdentifier>{a8e7ffb8-cff9-4532-b727-a1cf31fddd13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\GameLoop\GameManager\shake">
+      <UniqueIdentifier>{c8fc33bf-756d-4dbc-b64b-8c8a3f63e774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\GameLoop\GameManager\window">
+      <UniqueIdentifier>{24bace40-5304-425c-a85d-d92cf9ceaf42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\GameLoop\GameManager\Main">
+      <UniqueIdentifier>{d534cb91-cc25-4688-beca-86fcad75e131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\GameLoop\GameManager\Save_Load">
+      <UniqueIdentifier>{c3de33bb-84a9-4de7-bc9d-087e5fd97eea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Enemy">
+      <UniqueIdentifier>{5994203a-9ea8-4bbe-9f09-96212a63b3e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Enemy\AI">
+      <UniqueIdentifier>{ed6d19c8-684d-4b3f-905d-8754225fe013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Enemy\Animation">
+      <UniqueIdentifier>{0a702cb9-be2e-4a4c-8f06-eabcd90b4696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Enemy\Physics">
+      <UniqueIdentifier>{da6094ab-8d83-4356-bb6f-b7f8a52c36a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Enemy\Attack">
+      <UniqueIdentifier>{d8d0cf2f-4805-414c-bce8-2f36ccfd2551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Enemy\Draw">
+      <UniqueIdentifier>{a1062c45-47d7-4aaf-a692-e767a092e5da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Enemy\Main">
+      <UniqueIdentifier>{2ded5c4b-1066-4fb2-8d04-be3c96e535e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Player">
+      <UniqueIdentifier>{91543db9-b811-47b8-b0d0-e2fd6a3e46ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Player\Main">
+      <UniqueIdentifier>{a119a2b6-53f8-4c31-9887-1a7a5714120e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Player\Core">
+      <UniqueIdentifier>{a3f2a0fe-d2c4-473e-bff7-91791272bd19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Player\Draw">
+      <UniqueIdentifier>{c6f89a54-13e1-4762-adef-7f2395398439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Player\Update">
+      <UniqueIdentifier>{d59af0e3-a62b-42ca-a621-0bf64a5c5a93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\GameLoop\GameScene\item">
+      <UniqueIdentifier>{754527b0-81f5-484d-bfd6-7af6a63627e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Debug_utlity">
+      <UniqueIdentifier>{b48dd8f5-51e0-4835-8181-944f35b99b7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Player\Input">
+      <UniqueIdentifier>{5b388661-8d75-4f58-b4d2-424a24865f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\EditMode\Draw">
+      <UniqueIdentifier>{eaa99a19-938a-48b5-8720-219be8c78245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\EditMode\Update">
+      <UniqueIdentifier>{85344541-c849-444b-945c-0eecae871834}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\GameLoop\GameScene\Tutorial">
+      <UniqueIdentifier>{37a85301-1667-4956-95cd-37858f1dd83d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\EditMode\room">
+      <UniqueIdentifier>{6a6cada2-9fba-462e-8cd4-d8e23fa600dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\OldDeta">
+      <UniqueIdentifier>{fdbad48f-ced1-460d-82c4-406afe2178ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="enemy_ai.cpp">
+      <Filter>ソース ファイル\Game\Enemy\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_animation.cpp">
+      <Filter>ソース ファイル\Game\Enemy\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_physics.cpp">
+      <Filter>ソース ファイル\Game\Enemy\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_attack.cpp">
+      <Filter>ソース ファイル\Game\Enemy\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_draw.cpp">
+      <Filter>ソース ファイル\Game\Enemy\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="gameclear_scene.cpp">
+      <Filter>ソース ファイル\Game\GameLoop\GameScene\Clear</Filter>
+    </ClCompile>
+    <ClCompile Include="gameover_scene.cpp">
+      <Filter>ソース ファイル\Game\GameLoop\GameScene\Over</Filter>
+    </ClCompile>
+    <ClCompile Include="game_manager_gameplay.cpp">
+      <Filter>ソース ファイル\Game\GameLoop\GameManager\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="game_manager_resources.cpp">
+      <Filter>ソース ファイル\Game\GameLoop\GameManager\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="game_manager_misc.cpp">
+      <Filter>ソース ファイル\Game\GameLoop\GameManager\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="game_manager_shake.cpp">
+      <Filter>ソース ファイル\Game\GameLoop\GameManager\shake</Filter>
+    </ClCompile>
+    <ClCompile Include="game_manager_window.cpp">
+      <Filter>ソース ファイル\Game\GameLoop\GameManager\window</Filter>
+    </ClCompile>
+    <ClCompile Include="game_manager.cpp">
+      <Filter>ソース ファイル\Game\GameLoop\GameManager\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>ソース ファイル\Game\Enemy\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>ソース ファイル\Game\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>ソース ファイル\Game\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>ソース ファイル\Game\GameLoop\GameScene\item</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>ソース ファイル\Game\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\SpriteAtlas.cpp">
+      <Filter>ソース ファイル\Game\OldDeta</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySpawner.cpp">
+      <Filter>ソース ファイル\Game\OldDeta</Filter>
+    </ClCompile>
+    <ClCompile Include="titlescene.cpp">
+      <Filter>ソース ファイル\Game\GameLoop\GameScene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="EditModeIO.cpp">
+      <Filter>ソース ファイル\Game\EditMode\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="EditModeManager.cpp">
+      <Filter>ソース ファイル\Game\EditMode\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="SavePoint.cpp">
+      <Filter>ソース ファイル\Game\EditMode\Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="TilePalette.cpp">
+      <Filter>ソース ファイル\Game\EditMode\Palette</Filter>
+    </ClCompile>
+    <ClCompile Include="save_load.cpp">
+      <Filter>ソース ファイル\Game\GameLoop\GameManager\Save_Load</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>ソース ファイル\Game\Player\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="player_impl_core.cpp">
+      <Filter>ソース ファイル\Game\Player\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="player_impl_draw.cpp">
+      <Filter>ソース ファイル\Game\Player\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="player_impl_update.cpp">
+      <Filter>ソース ファイル\Game\Player\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル\Game\main</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_chase.cpp">
+      <Filter>ソース ファイル\Game\Enemy\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_pathfinding.cpp">
+      <Filter>ソース ファイル\Game\Enemy\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_vision.cpp">
+      <Filter>ソース ファイル\Game\Enemy\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="player_input.cpp">
+      <Filter>ソース ファイル\Game\Player\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="EditModeDraw.cpp">
+      <Filter>ソース ファイル\Game\EditMode\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="EditModeUpdate.cpp">
+      <Filter>ソース ファイル\Game\EditMode\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="TutorialScene.cpp">
+      <Filter>ソース ファイル\Game\GameLoop\GameScene\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="room_tag_texts.cpp">
+      <Filter>ソース ファイル\Game\EditMode\room</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomManager.cpp">
+      <Filter>ソース ファイル\Game\EditMode\room</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gameclear_scene.h">
+      <Filter>ソース ファイル\Game\GameLoop\GameScene\Clear</Filter>
+    </ClInclude>
+    <ClInclude Include="gameover_scene.h">
+      <Filter>ソース ファイル\Game\GameLoop\GameScene\Over</Filter>
+    </ClInclude>
+    <ClInclude Include="game_manager.h">
+      <Filter>ソース ファイル\Game\GameLoop\GameManager\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>ソース ファイル\Game\Enemy\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>ソース ファイル\Game\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>ソース ファイル\Game\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>ソース ファイル\Game\GameLoop\GameScene\item</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>ソース ファイル\Game\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="RespawnLine.h">
+      <Filter>ソース ファイル\Game\OldDeta</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\SpriteAtlas.h">
+      <Filter>ソース ファイル\Game\OldDeta</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySpawner.h">
+      <Filter>ソース ファイル\Game\OldDeta</Filter>
+    </ClInclude>
+    <ClInclude Include="titlescene.h">
+      <Filter>ソース ファイル\Game\GameLoop\GameScene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>ソース ファイル\Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="EditModeManager.h">
+      <Filter>ソース ファイル\Game\EditMode\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="SavePoint.h">
+      <Filter>ソース ファイル\Game\EditMode\Pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="TilePalette.h">
+      <Filter>ソース ファイル\Game\EditMode\Palette</Filter>
+    </ClInclude>
+    <ClInclude Include="save_load.h">
+      <Filter>ソース ファイル\Game\GameLoop\GameManager\Save_Load</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>ソース ファイル\Game\Player\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ソース ファイル\Game\main</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\debug_utils.h">
+      <Filter>ソース ファイル\Debug_utlity</Filter>
+    </ClInclude>
+    <ClInclude Include="TutorialScene.h">
+      <Filter>ソース ファイル\Game\GameLoop\GameScene\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomManager.h">
+      <Filter>ソース ファイル\Game\EditMode\room</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="room_tag_texts_default.csv" />
+  </ItemGroup>
+</Project>

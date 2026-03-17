@@ -1,0 +1,6 @@
+PlayTitleEffect: attempting to load graphic/effect/Warning.efk
+LoadEffekseerEffect returned 0
+PlayEffekseer2DEffect returned 0
+PlayTitleEffect: attempting to load graphic/effect/Warning.efk
+LoadEffekseerEffect returned 0
+PlayEffekseer2DEffect returned 0

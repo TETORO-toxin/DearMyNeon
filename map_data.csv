@@ -1,0 +1,2 @@
+id,xStart,xEnd,enemyPos,enemyTypes,itemPos,itemTypes,savePos,backgroundImage,floorImage
+1,0,1000,400:400;500:400;600:400,0;1;2,800:400,0,1200:400;2400:400,background1.png,floor1.png
